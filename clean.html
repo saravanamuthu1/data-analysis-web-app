@@ -1,0 +1,13 @@
+{%extends 'base.html' %}
+{% block title %}
+describe data
+{% endblock%}
+
+{% block content %}
+<div class="clean_data">
+<Form action="{{ url_for('clean')}}" method="POST" enctype="multipart/form-data">
+<button type="submit" value="submit_button" value="DoSomething" class="btn btn-light">submit</button>
+<h1>The number of rows removed : {{clean_value}}</h1>
+</Form>
+</div>
+{% endblock %}
