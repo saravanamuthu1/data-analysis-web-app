@@ -1,0 +1,28 @@
+{%extends 'base.html' %}
+{% block title %}
+uploaddata
+{% endblock%}
+
+{% block content %}
+<h1>upload data</h1>
+<form action="{{ url_for('upload')}}" method="POST" enctype="multipart/form-data">
+<div class="input-group mb-3 p-3 d-flex justify-content-center" id="input_id">
+    <input type="file" name="csv_data" class="form-control-sm" id="inputGroupFile02">
+    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    <button type="submit" class="btn btn-light">submit</button>
+</div>
+</form>
+<h2>The number of rows and columns in the dataset : {{shape_data}}</h2>
+<h2>Column names in the dataset </h2>
+<table style="border:1px solid white;margin-left:auto;margin-right:auto;">
+    {%for i in val%}
+    <tr>
+      <td>
+        <p>{{i}}<p>
+      </td>
+      {%endfor%}
+    </tr>
+</table>
+
+{% endblock %}
+
