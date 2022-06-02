@@ -12,9 +12,13 @@ what this app can do?
  
  Instrcution to execute 
  1.first clone the repository 
+ 
  2.create a python vitual environment
     python -m venv venv
     venv\Scripts\Activate.ps1
+		
+		
    run the following commands
+	
  3. Run pip install -r requirements.txt (Python 2), or pip3 install -r requirements.txt (Python 3)
  4. python -m flask run
