@@ -22,3 +22,8 @@ what this app can do?
 	
  3. Run pip install -r requirements.txt (Python 2), or pip3 install -r requirements.txt (Python 3)
  4. python -m flask run
+
+#PROJECT PICTURES.
+![Screenshot (357)](https://user-images.githubusercontent.com/41484502/178371595-f5a29ea4-3911-4309-985e-cfaf0727fc40.png)
+![Screenshot (358)](https://user-images.githubusercontent.com/41484502/178371881-aaec3e51-f937-4215-ae78-682384c75eba.png)
+![Screenshot (359)](https://user-images.githubusercontent.com/41484502/178371911-5b6998ff-fced-47e7-9841-721817faac2b.png)
